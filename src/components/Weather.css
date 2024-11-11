@@ -1,0 +1,87 @@
+/*Main container for weather*/
+.weather
+{
+    place-self: center;
+    padding: 40px;
+    border-radius: 50px;
+    background-image: linear-gradient(225deg, #8e0f0f, #500ae4);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+/*Container for search bar*/
+.search-bar
+{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+/* Styles for the search input field */
+.search-bar input
+{
+    height: 50px;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    padding-left: 25px;
+    color: #626262;
+    background: #ebfffc;
+    font-size: 18px;
+}
+/* Styles for the search icon */
+.search-bar img
+{
+    width: 50px;
+    padding: 15px;
+    border-radius: 50%;
+    background: #ebfffc;
+    cursor: pointer;
+}
+/* Styles for the weather icon */
+.weather-icon
+{
+    width: 100px;
+    margin: 30px 0;
+}
+/* Styles for the temperature display */
+.temperature
+{
+    color: #fff;
+    font-size: 80px;
+    line-height: 1;
+}
+/* Styles for the location display */
+.location
+{
+    color: #fff;
+    font-size: 40px;
+}
+/* Container for additional weather data */
+.weather-data
+{
+    width: 100%;
+    margin-top: 40px;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+}
+/* Styles for each column of weather data */
+.weather-data .col
+{
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+    font-size: 22px;
+}
+/* Styles for the text inside each column */
+.weather-data .col span
+{
+    display: block;
+    font-size: 16px;
+}
+/* Styles for the icons inside each column */
+.weather-data .col img
+{
+    width: 26px;
+    margin-top: 10px;
+}
