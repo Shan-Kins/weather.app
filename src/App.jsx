@@ -2,7 +2,8 @@ import React from 'react'
 import Weather from './components/Weather'
 
 // Main application component
-const App = () => {
+const App = () =>
+{
   return (
     <div className='app'>
       <Weather/>
