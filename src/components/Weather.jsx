@@ -64,7 +64,7 @@ const Weather = () => {
     }
   };
 
-  // initial search to display at open
+  // display initial search at open
   useEffect(() => {
     search("Antarctica");
   }, []);
